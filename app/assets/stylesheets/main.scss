@@ -176,3 +176,49 @@
   max-width: 200px;
   display: flex;
 }
+
+.feaStamp {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0097AC), to(#881E87));
+        line-height: 90px;
+        display: inline-block;
+}
+.linearBg {
+        height: 270px;
+        color: #494c4f !important;
+        /* Safari 4-5, Chrome 1-9 */
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d8e4fc), to(#d8e4fc));
+        /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, #d8e4fc, #d8e4fc);
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, #d8e4fc, #d8e4fc);
+        /* IE 10 */
+        background: -ms-linear-gradient(top, #d8e4fc, #d8e4fc);
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(top, #d8e4fc, #d8e4fc);
+        border-bottom: 1px solid #c4c4c4;
+}
+
+h1.display-4 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+p.lead {
+  color: #fff;
+}
+
+div.background {
+  background-color: #0097AC;
+}
+
+.features-container h5 {
+  color: #006E74;
+}
+
+.features-container p.font14 {
+  color: #231F20;
+}

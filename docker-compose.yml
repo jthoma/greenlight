@@ -3,8 +3,8 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: bigbluebutton/greenlight:v2
-    container_name: greenlight-v2
+    image: 82d9ffdfad61
+    container_name: drishti-v2
     env_file: .env
     restart: unless-stopped
     ports:

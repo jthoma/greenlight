@@ -13,29 +13,68 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
+<style>
+.sepLine1 {
+	
+	height: 10px;
+	border-bottom: solid 1px #B9B9B9;
+	margin: 20px 0 10px;
+}
 
-<div class="container mt-8 mb-6 text-center">
+</style>
+
+<div class="container mt-8 mb-6 text-center features-container">
 
   <h2 class="mb-6"><%= t("greenlight") %> <%= t("features.title") %></h2>
 
-  <div class="row feature-stamp">
-    <div class="col-lg-3 col-md-6">
-      <div class="feature-item">
-        <div class="stamp bg-primary"><i class="fas fa-chalkboard-teacher fa-2x"></i></div>
-        <h4 class="mt-4"><%= t("features.rooms") %></h4>
+    <div class="row pt-4">
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_CHAT-60b10135795b7d12cffd68db16e595fcff9800edaaea16b678e1656999a1ebd3.png"  alt=""/></div>
+        <h5>CHAT</h5>
+        <p class="font14">Send public and private
+          messages.</p>
+      </div>
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_WEBCAMS-43d6afc251ad2526cc6cf86d977d0ee9e8dedce9368b0d59dc9ba029f7e9dcfc.png"  alt=""/></div>
+        <h5>WEBCAMS</h5>
+        <p class="font14">Hold visual meetings.</p>
+      </div>
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_AUDIO-805fd24ab2b671f7ec976d5c97e880650f5ab0ea48e732bee256bd7317dbedbf.png"  alt=""/></div>
+        <h5>AUDIO</h5>
+        <p class="font14">Communicate using high
+          quality audio.</p>
+      </div>
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_EMOJIS-f74094c56ae09d23e3e4e4370e1b4b1f30914d160f81303fc98c6be568af0c48.png"  alt=""/></div>
+        <h5>EMOJIS</h5>
+        <p class="font14">Express yourself.</p>
       </div>
     </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-film fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.recordings") %></h4>
+    <div class="sepLine1"></div>
+    <div class="row pt-4">
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_ROOMS-6de594461dd4ca5fb86d8490f62c6c1a5ccda4c66612328dfb22661c7e2f58c5.png"  alt=""/></div>
+        <h5>BREAKOUT ROOMS</h5>
+        <p class="font14">Group users into
+          breakout rooms for team
+          collaboration.</p>
+      </div>
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_POLLING-b313fff5f51b3a07a2fb859f4d62859f47cab7518e73a27f91ae3cce19ac473d.png"  alt=""/></div>
+        <h5>POLLING</h5>
+        <p class="font14">Poll your users anytime.</p>
+      </div>
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_SHARING-b30d7559d62be2663b6b2b1975cbadc30897c50618e8b3ab3f326844af296869.png"  alt=""/></div>
+        <h5>SCREEN SHARING</h5>
+        <p class="font14">Share your screen.</p>
+      </div>
+      <div class="col-3">
+        <div class="feaStamp mb-2"><img src="/b/assets/icon_WHITEBOARD-826e155a263f17e38bebb3a3c24391786680e517ad4562d53881e08589ef5434.png"  alt=""/></div>
+        <h5>USER WHITEBOARD</h5>
+        <p class="font14">Draw together.</p>
+      </div>
     </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-pencil-alt fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.designs") %></h4>
-    </div>
-    <div class="col-lg-3 col-md-6">
-      <span class="stamp bg-primary"><i class="fas fa-door-open fa-2x"></i></span>
-      <h4 class="mt-4"><%= t("features.authentication") %></h4>
-    </div>
-  </div>
+
 </div>
